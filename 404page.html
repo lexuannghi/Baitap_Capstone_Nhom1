@@ -5,19 +5,89 @@
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
+ <!-- FONT AWNSOME -->
+ <link
+ rel="stylesheet"
+ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+ integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+ crossorigin="anonymous"
+ referrerpolicy="no-referrer"
+/>
     <!-- Bootstrap CSS v5.2.1 -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous" />
+      <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/404page.css" />
   </head>
 
   <body>
     <header>
-      <!-- place navbar here -->
+      <div class="container">
+        <div class="header_content d-flex justify-content-between">
+          <div class="logo">
+            <h1><a href="#">Diner</a></h1>
+          </div>
+          <div class="header_right d-flex align-items-center justify-content-between">
+            <div class="search-container">
+              <form>
+                <input type="text" placeholder="Search Here..." name="search" />
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+            <i class="fa-regular fa-moon"></i>
+            <div class="nav_bar_moblie">
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+              <i class="fa-solid fa-bars"></i>
+              </button>
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <button
+                  type="button"
+                  class="button_overlay_nav"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                >
+                <i class="fa-solid fa-xmark"></i>
+                </button>
+  
+                <div class="modal-dialog modal-fullscreen-sm-down">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+                    </div>
+                    <div class="modal-body">
+                      <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Blog Posts</a></li>
+                        <li><a href="#">Element</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Landing Page</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
     <main></main>
     <footer>
