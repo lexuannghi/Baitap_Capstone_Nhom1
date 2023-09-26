@@ -32,7 +32,7 @@
             <div class="search-container">
               <form class="d-none-md">
                 <label>
-                  <input type="text" placeholder="Search Here..." name="search">
+                  <input type="text" placeholder="Search Here..." name="search" />
                 </label>
                 <button type="submit"><i class="fa fa-search"></i></button>
               </form>
@@ -133,6 +133,8 @@
         </div>
       </div>
     </footer>
+    <!-- back to top -->
+    <a href="#" title="Back To Top" class="scrollToTop"><i class="fa-solid fa-angle-up"></i></a>
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -143,5 +145,29 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
       integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
       crossorigin="anonymous"></script>
+    <!-- jquery.min -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <!-- backtotop -->
+    <script>
+      $(document).ready(function () {
+        //Check to see if the window is top if not then display button
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 100) {
+            $(".scrollToTop").fadeIn();
+          } else {
+            $(".scrollToTop").fadeOut();
+          }
+        });
+        //Click event to scroll to top
+        $(".scrollToTop").click(function () {
+          $("html, body").animate({ scrollTop: 0 }, 800);
+          return false;
+        });
+      });
+    </script>
   </body>
 </html>
