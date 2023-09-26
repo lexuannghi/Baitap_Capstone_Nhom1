@@ -15,6 +15,7 @@ header {
     url(https://wp.w3layouts.com/diner/wp-content/themes/Diner/assets/images/banner1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   color: #fff;
   padding: 30px 0 20px 0;
 }
