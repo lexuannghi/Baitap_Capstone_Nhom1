@@ -1,109 +1,110 @@
-
-body{
-    background-color: #3d3a38;
+body {
+  background-color: #3d3a38;
 }
-
+/* @media responsive */
+@media screen and (max-width: 600px) {
+    .d-none-md {
+        display: none;
+    }
+}
 /* START HEADER */
-header{
-    /* position: relative;
+header {
+  /* position: relative;
     left: 0;
     right: 0; */
-    background-color:transparent;
-    color: #fff;
-    padding: 40px 0 20px 0;
+  background-color: transparent;
+  color: #fff;
+  padding: 40px 0 20px 0;
 }
+
 /* HEADER LOGO */
-.logo h1 a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 36px;
-    font-weight: 600;
+.logo h1 a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
 }
 /* HEADER RIGHT */
-.header_right>i{
-    font-size: 25px;
-    margin-left: 15px;
+.header_right > i {
+  font-size: 25px;
+  margin-left: 15px;
 }
 /* START SEARCH CONTAINER */
-.search-container{
-    position: relative;
+.search-container {
+  position: relative;
 }
 .search-container button {
-    padding: 6px 10px;
-    background: transparent;
-    font-size: 15px;
-    border: none;
-    cursor: pointer;
-    position: absolute;
-    right: 5px;top: 5px;
-  }
-    
-  .search-container [type=text]{
-    padding: 10px 50px 10px 20px;
-    height: 45px;
-    font-weight: 400;
-    outline: 0;
-    border: none;
-    border-radius: 6px;
-    position: relative;
-    right: 0;
-    background-color: #fff;
-  }
-  /* NAV BAR MOBILE */
-.nav_bar_moblie .modal{
-    background-color:rgba(6, 3, 0, 0.7);
+  padding: 6px 10px;
+  background: transparent;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  top: 5px;
 }
 
-.nav_bar_moblie .button_overlay_nav{
-    position: absolute;
-    top: 40px;
-    right: 40px;
-    width: 40px;
-    height: 40px;
-    color: #fff;
-    background-color: #ff6600;
-    text-align: center;
-    line-height: 40px;
-    border: none;
-    border-radius: 5px;
+.search-container [type="text"] {
+  padding: 10px 50px 10px 20px;
+  height: 45px;
+  font-weight: 400;
+  outline: 0;
+  border: none;
+  border-radius: 6px;
+  position: relative;
+  right: 0;
+  background-color: #fff;
 }
-.nav_bar_moblie .button_overlay_nav i{
-    font-size: 20px;
-}
-.nav_bar_moblie .modal-content{
-    position: relative;
-    background-color: rgba(103, 95, 95, 0);
-    border: none;
-    padding-top: 75px
-}
-.nav_bar_moblie .modal-header{
-    border-bottom: none;
-}
-.nav_bar_moblie .modal-content ul li{
-    list-style: none;
-
-    text-align: center;
-    color: #fff;
-    margin-bottom: 30px;
-}
-.nav_bar_moblie .modal-content ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 600;
-    transition: all 0.5s;
-}
-.nav_bar_moblie .modal-content ul li a:hover{
-    color: #ff6600;
+/* NAV BAR MOBILE */
+.nav_bar_moblie .modal {
+  background-color: rgba(6, 3, 0, 0.1);
 }
 
-
-.nav_bar_moblie .btn i{
-    font-size: 30px;
-    color: #fff;
-    margin-left: 15px;
+.nav_bar_moblie .button_overlay_nav {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background-color: #ff6600;
+  text-align: center;
+  line-height: 40px;
+  border: none;
+  border-radius: 5px;
 }
-
-
-
- 
+.nav_bar_moblie .button_overlay_nav i {
+  font-size: 20px;
+}
+.nav_bar_moblie .modal-content {
+  position: relative;
+  background-color: rgba(103, 95, 95, 0);
+  border: none;
+  padding-top: 75px;
+}
+.nav_bar_moblie .modal-header {
+  border-bottom: none;
+}
+.nav_bar_moblie .modal-content ul li {
+  list-style: none;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.nav_bar_moblie .modal-content ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+.nav_bar_moblie .modal-content ul li a:hover {
+  color: #ff6600;
+}
+.nav_bar_moblie .btn {
+    padding: 0;
+}
+.nav_bar_moblie .btn i {
+  font-size: 30px;
+  color: #fff;
+}
