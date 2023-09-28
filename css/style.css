@@ -4,18 +4,17 @@
 body {
   font-family: quicksand;
 }
+html {
+  font-size: 19px;
+}
 /* media responsive */
 
 @media screen and (max-width: 1440px) {
   .header-text h5 {
     width: 50% !important;
-    font-size: 48px !important;
   }
 }
 @media screen and (max-width: 1200px) {
-  .about-us span {
-    font-size: 32px !important;
-  }
   .mb-ssm-3 {
     margin-bottom: 15px !important;
   }
@@ -23,17 +22,15 @@ body {
 @media screen and (max-width: 1024px) {
   .header-text h5 {
     width: 60% !important;
-    font-size: 44px !important;
   }
 }
 @media screen and (max-width: 992px) {
   .header-text h5 {
     width: 80% !important;
-    font-size: 44px !important;
   }
   .features .features-img {
     min-height: 250px !important;
-}
+  }
 }
 @media screen and (max-width: 800px) {
   header {
@@ -56,18 +53,11 @@ body {
   }
   .header-text h5 {
     width: 100% !important;
-    font-size: 40px !important;
   }
 }
 @media screen and (max-width: 600px) {
   .d-none-md {
     display: none;
-  }
-  .about-us span {
-    font-size: 30px !important;
-  }
-  .about-us p {
-    font-size: 16px !important;
   }
 }
 @media screen and (max-width: 480px) {
@@ -81,13 +71,9 @@ body {
   }
   .header-text h5 {
     width: 100% !important;
-    font-size: 28px !important;
   }
   .btn-banner {
     padding: 12px 35px !important;
-  }
-  .about-us span {
-    font-size: 26px !important;
   }
 }
 
@@ -391,18 +377,17 @@ footer .footer_btn:hover {
   background: url(https://wp.w3layouts.com/diner/wp-content/themes/Diner/assets/images/banner3.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; 
+  background-size: cover;
   filter: brightness(0.8);
 }
 .features .features-item {
-  padding: 100px 50px;
+  padding: 70px 10px;
 }
 .features .features-text h5 {
   font-family: pacifico;
- color: white;
+  color: white;
 }
 .features .features-text h3 {
-  font-size: 38px;
   font-weight: 600;
 }
 .features .features-text p {
@@ -426,10 +411,8 @@ footer .footer_btn:hover {
   color: #ffbc58;
 }
 .features .features-icon span {
-  font-size: 20px;
   font-weight: 700;
 }
 .features .features-icon p {
- color: #ddd;
+  color: #ddd;
 }
-
