@@ -1,12 +1,23 @@
 * a {
   text-decoration: none;
 }
+body {
+  font-family: quicksand;
+}
 /* media responsive */
 
 @media screen and (max-width: 1440px) {
   .header-text h5 {
     width: 50% !important;
     font-size: 48px !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .about-us span {
+    font-size: 32px !important;
+  }
+  .mb-ssm-3 {
+    margin-bottom: 15px !important;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -20,6 +31,9 @@
     width: 80% !important;
     font-size: 44px !important;
   }
+  .features .features-img {
+    min-height: 250px !important;
+}
 }
 @media screen and (max-width: 800px) {
   header {
@@ -49,6 +63,12 @@
   .d-none-md {
     display: none;
   }
+  .about-us span {
+    font-size: 30px !important;
+  }
+  .about-us p {
+    font-size: 16px !important;
+  }
 }
 @media screen and (max-width: 480px) {
   header {
@@ -66,10 +86,16 @@
   .btn-banner {
     padding: 12px 35px !important;
   }
+  .about-us span {
+    font-size: 26px !important;
+  }
 }
 
 .red {
   border: 1px solid red;
+}
+.py-8 {
+  padding: 80px 0;
 }
 /* START HEADER */
 header {
@@ -339,3 +365,71 @@ footer .footer_btn:hover {
   background: #bd4c00;
   color: white;
 }
+/* about us */
+.about-us h3 {
+  font-family: pacifico;
+  color: #ff6600;
+  text-transform: capitalize;
+}
+.about-us span {
+  font-family: quicksand;
+  font-weight: 600;
+  font-size: 38px;
+}
+.about-us p {
+  font-family: quicksand;
+  font-size: 18px;
+  color: gray;
+}
+/* features */
+.features {
+  width: 100%;
+  background: #ff6600;
+}
+.features .features-img {
+  min-height: 600px;
+  background: url(https://wp.w3layouts.com/diner/wp-content/themes/Diner/assets/images/banner3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  filter: brightness(0.8);
+}
+.features .features-item {
+  padding: 100px 50px;
+}
+.features .features-text h5 {
+  font-family: pacifico;
+ color: white;
+}
+.features .features-text h3 {
+  font-size: 38px;
+  font-weight: 600;
+}
+.features .features-text p {
+  font-size: 18px;
+  color: #ddd;
+  padding: 15px 0;
+}
+.features .features-icon i {
+  width: 65px;
+  height: 65px;
+  line-height: 65px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+  color: #ff6600;
+  font-size: 26px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.features .features-icon i:hover {
+  color: #ffbc58;
+}
+.features .features-icon span {
+  font-size: 20px;
+  font-weight: 700;
+}
+.features .features-icon p {
+ color: #ddd;
+}
+
