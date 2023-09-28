@@ -76,7 +76,18 @@ html {
     padding: 12px 35px !important;
   }
 }
-
+.font-pacifico {
+  font-family: pacifico !important;
+}
+.text-orange {
+  color: #ff6600;
+}
+.bg-orange {
+  background: #ff6600;
+}
+.text-gray {
+  color: #ddd;
+}
 .red {
   border: 1px solid red;
 }
@@ -353,17 +364,14 @@ footer .footer_btn:hover {
 }
 /* about us */
 .about-us h3 {
-  font-family: pacifico;
   color: #ff6600;
   text-transform: capitalize;
 }
 .about-us span {
-  font-family: quicksand;
   font-weight: 600;
   font-size: 38px;
 }
 .about-us p {
-  font-family: quicksand;
   font-size: 18px;
   color: gray;
 }
@@ -383,17 +391,14 @@ footer .footer_btn:hover {
 .features .features-item {
   padding: 70px 10px;
 }
-.features .features-text h5 {
-  font-family: pacifico;
-  color: white;
-}
+
 .features .features-text h3 {
   font-weight: 600;
 }
 .features .features-text p {
   font-size: 18px;
   color: #ddd;
-  padding: 15px 0;
+  padding-bottom: 25px;
 }
 .features .features-icon i {
   width: 65px;
@@ -413,6 +418,16 @@ footer .footer_btn:hover {
 .features .features-icon span {
   font-weight: 700;
 }
-.features .features-icon p {
-  color: #ddd;
+.popular-text {
+  position: absolute;
+  bottom: 35px;
+  left: 60px;
+}
+.popular-item img {
+  filter: brightness(0.8);
+  transition: all 0.4s ease;
+  border-radius: 10px;
+}
+.popular-item img:hover {
+  filter: brightness(1.05);
 }
