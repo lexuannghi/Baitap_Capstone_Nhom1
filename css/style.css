@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * a {
   text-decoration: none;
 }
@@ -105,14 +106,98 @@ header {
   background-attachment: fixed;
   color: #fff;
   padding: 30px 0 20px 0;
+=======
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Pacifico', cursive;
+    font-family: 'Quicksand', sans-serif;
+}
+.body_light{
+    background-color: var(--secondary-color);
+}
+.body_dark{
+    background-color: #232220;
+    color: var(--secondary-color);
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --primary-color:#ff6600;
+    --secondary-color:#fff;
+}
+/* BODY DARK */
+
+.body_dark .light .fa-sun {
+    display: block;
+    color: var(--secondary-color);
+  }
+  
+  .body_dark .light .fa-moon {
+    display: none;
+  }
+  .body_dark .search-container [type=text],  .body_dark [type=email]{
+    background-color: #232220;
+    color: var(--secondary-color);
+  }
+  .body_dark .fa-search{
+    color: gray;
+  }
+  .body_dark .footer_content .socials i{
+    background-color: #232220;
+  }
+  .body_dark .footer_content .socials i:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+  }
+/* START HEADER */
+header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color:transparent;
+    color: #fff;
+    padding: 40px 0 20px 0;
+>>>>>>> huynh
 }
 
 /* HEADER LOGO */
+<<<<<<< HEAD
 .logo h1 a {
   text-decoration: none;
   color: #fff;
   font-size: 36px;
   font-weight: 600;
+=======
+.logo h1 a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+}
+/* HEADER RIGHT */
+.header_right .light{
+    width: 50px;
+}
+.light .fa-moon{
+    display: block;
+}
+.light .fa-sun{
+    display: none;
+}
+
+.header_right .light svg{
+    font-size: 25px;
+    margin-left: 15px;
+}
+.header_right .dark svg{
+    font-size: 25px;
+    margin-left: 15px;
+>>>>>>> huynh
 }
 
 /* START SEARCH CONTAINER */
@@ -121,6 +206,7 @@ header {
 }
 
 .search-container button {
+<<<<<<< HEAD
   padding: 6px 10px;
   background: transparent;
   font-size: 15px;
@@ -129,6 +215,31 @@ header {
   position: absolute;
   right: 5px;
   top: 5px;
+=======
+    padding: 6px 10px;
+    background: transparent;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;top: 5px;
+  }
+    
+  .search-container [type=text]{
+    padding: 10px 50px 10px 20px;
+    height: 45px;
+    font-weight: 400;
+    outline: 0;
+    border: none;
+    border-radius: 6px;
+    position: relative;
+    right: 0;
+    /* background-color: #fff; */
+  }
+  /* NAV BAR MOBILE */
+.nav_bar_moblie .modal{
+    background-color:rgba(6, 3, 0, 0.7);
+>>>>>>> huynh
 }
 
 .search-container [type="text"] {
@@ -150,6 +261,7 @@ header {
   overflow-y: hidden;
 }
 
+<<<<<<< HEAD
 .nav_bar_mobile .button_overlay_nav {
   position: absolute;
   top: 40px;
@@ -238,6 +350,16 @@ header {
   background-color: #fff;
 }
 /* END HEADER */
+=======
+.nav_bar_moblie .btn i{
+    font-size: 30px;
+    color: #fff;
+    /* margin-left: 15px; */
+}
+/* END HEADER */
+
+
+>>>>>>> huynh
 /* START FOOTER */
 footer {
   background-color: #000000;
