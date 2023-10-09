@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>About Us</title>
+    <title>About</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <!-- FONT AWNSOME -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer" />
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300;600;700&display=swap" rel="stylesheet">
+     <!-- FONT AWNSOME -->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+     integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer"
+   />
     <!-- Bootstrap CSS v5.2.1 -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
@@ -20,6 +25,7 @@
       crossorigin="anonymous" />
     <link rel="stylesheet" href="./css/about.css" />
   </head>
+
   <body class="body_light" id="body">
     <!-- HEADER -->
     <header>
@@ -29,11 +35,9 @@
             <h1><a href="#">Diner</a></h1>
           </div>
           <div class="header_right d-flex align-items-center justify-content-between">
-            <div class="search-container">
-              <form class="d-none-md">
-                <label>
-                  <input type="text" placeholder="Search Here..." name="search" />
-                </label>
+            <div class="search-container  d-none d-sm-block">
+              <form>
+                <input type="text" placeholder="Search Here..." name="search" />
                 <button type="submit"><i class="fa fa-search"></i></button>
               </form>
             </div>
@@ -46,14 +50,15 @@
               </svg>
               
             </div>
-            <div class="nav_bar_mobile">
+            <div class="nav_bar_moblie">
               <!-- Button trigger modal -->
               <button
                 type="button"
                 class="btn"
                 data-bs-toggle="modal"
-                data-bs-target="#exampleModal">
-                <i class="fa-solid fa-bars"></i>
+                data-bs-target="#exampleModal"
+              >
+              <i class="fa-solid fa-bars"></i>
               </button>
               <!-- Modal -->
               <div
@@ -61,14 +66,17 @@
                 id="exampleModal"
                 tabindex="-1"
                 aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
+                aria-hidden="true"
+              >
                 <button
                   type="button"
                   class="button_overlay_nav"
                   data-bs-dismiss="modal"
-                  aria-label="Close">
-                  <i class="fa-solid fa-xmark"></i>
+                  aria-label="Close"
+                >
+                <i class="fa-solid fa-xmark"></i>
                 </button>
+  
                 <div class="modal-dialog modal-fullscreen-sm-down">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -77,10 +85,12 @@
                     <div class="modal-body">
                       <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="about.html">About</a></li>
                         <li><a href="services.html">Services</a></li>
                         <li><a href="blog.html">Blog Posts</a></li>
+                        
                         <li><a href="404page.html">404 Page</a></li>
+
                         <li><a href="contact.html">Contact</a></li>
                         <li><a href="landingpage.html">Landing Page</a></li>
                       </ul>
@@ -94,18 +104,128 @@
       </div>
     </header>
     <section></section>
+     <!-- BANNER -->
+     <section class="banner">
+      <a href="index.html">Home</a>
+      <span>&nbsp;&nbsp;»&nbsp;&nbsp;About page</span>
+    </section>
+    <!-- ABOUT -->
+    <section class="about py-5">
+      <div class="container">
+        <div class="about_top py-5">
+          <h2 class="title">The Story</h2>
+          <h3 class="sub_title">About Us</h3>
+        </div>
+        <div class="about_center py-3">
+          <div class="row d-flex align-items-center">
+            <div class="col-lg-6 col-md-12 about_left">
+              <img src="./images/banner1.jpg" alt="About Us">
+            </div>
+            <div class="col-lg-6 col-md-12 about_right ps-lg-5">
+              <h3 class="sub_title">We found our creative space that is open for you.</h3>
+              <p class="py-3">Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum fringilla, gravida felis vitae. Phasellus lacinia id, sunt in culpa quis. Phasellus lacinia</p>
+              <p class="pb-3">Excepteur sint occaecat non proident, sunt in culpa quis. Phasellus lacinia id erat eu ullamcorper.</p>
+              <button>Read More <i class="fa-solid fa-chevron-right"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="about_bottom pt-5">
+          <div class="row d-flex align-items-center">
+            <div class="col-lg-3 col-12 col-md-6">
+              <h3 class="sub_title">What we Do ?.</h3>
+            </div>
+            <div class="col-lg-3 col-12 col-md-6">
+              <h4> <a href="#">Strategy and Timing</a></h4>
+              <p>Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum fringilla.</p>
+            </div>
+            <div class="col-lg-3 col-12 col-md-6">
+              <h4> <a href="#">Leaders Of Tomorrow</a></h4>
+              <p>Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum fringilla.</p>
+            </div>
+            <div class="col-lg-3 col-12 col-md-6">
+              <h4> <a href="#">Brand - Centered Buying</a></h4>
+              <p>Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum fringilla.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SKILL -->
+    <section class="skill py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <h2 class="title">Skills</h2>
+            <h3 class="sub_title">Strategy is at the Heart of What We Do</h3>
+            <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.</p>
+            <div class="skill_container">
+              <div class="skill_item mb-4">
+                <h6>Digital Strategy</h6>
+                <div class="range">
+                  <div class="range_children1"></div>
+                </div>
+              </div>
+              <div class="skill_item mb-4">
+                <h6>Financial Services</h6>
+                <div class="range">
+                  <div class="range_children2"></div>
+
+                </div>
+              </div>
+              <div class="skill_item">
+                <h6>Counsalting</h6>
+                <div class="range">
+                  <div class="range_children3"></div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="skill_img">
+              <img src="./images/g1.jpg" alt="">
+              <img src="./images/g2.jpg" alt="">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TEAM -->
+    <section class="team py-5 text-center">
+      <div class="container py-lg-5">
+        <h3 class="title">Our team</h3>
+        <h2 class="sub_title">Meet Our Chefs
+        </h2>
+        <div class="row pt-5">
+          <div class="col-lg-4 col-md-6 col-sm-6 col-6"><img src="./images/chef2.jpg" alt="">
+            <a href="#" class="team_title">Daniel jacobs
+            </a>
+            <p class="team_desc">Chef</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-6"><img src="./images/chef1.jpg" alt="">
+            <a href="#" class="team_title">Daniel jacobs
+            </a>
+            <p class="team_desc">Chef</p>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-lg-0 mt-5 col-sm-6 col-6 mx-auto"><img src="./images/chef2.jpg" alt="">
+            <a href="#" class="team_title">Daniel jacobs
+            </a>
+            <p class="team_desc">Chef</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
     <!-- FOOTER -->
     <footer>
       <div class="container">
         <div class="footer_content">
           <div class="row">
             <div class="mb-md-5 mb-sm-5 mb-lg-0 mb-5 col-12 col-sm-12 col-md-6 col-lg-4">
-              <a href="index.html"><h4>Diner</h4></a>
-              <p class="mb-4">
-                Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula.
-                Semper at tempufddfel. Lorem ipsum dolor sit amet Semper at elit.
-              </p>
-              <div class="socials text-center text-sm-center text-lg-start">
+              <a href="index.html"> <h2>Diner</h2></a>
+              <p class="mb-4">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet Semper at elit.</p>
+              <div class="socials text-center text-sm-center text-lg-start ">
                 <i class="fa-brands fa-facebook-f"></i>
                 <i class="fa-brands fa-twitter"></i>
                 <i class="fa-brands fa-instagram"></i>
@@ -116,6 +236,8 @@
               <h4>Categories</h4>
               <a href="#" class="footer_link">Drinks</a>
               <a href="#" class="footer_link">Food</a>
+              
+              
             </div>
             <div class="mb-md-5 mb-sm-5 mb-lg-0 mb-5 col-6 col-sm-6 col-md-6 col-lg-2">
               <h4>Archives</h4>
@@ -123,23 +245,19 @@
             </div>
             <div class="col-12 col-sm-12 col-md-6 col-lg-4">
               <h4>Subscribe to our Newsletter</h4>
-              <p>
-                Enter your email and receive the latest news, updates and special offers from us.
-              </p>
-              <label class="w-100">
-                <input type="email" placeholder="Your Email Address" />
-              </label>
+              <p>Enter your email and receive the latest news, updates and special offers from us.</p>
+              <input type="email" placeholder="Your Email Address">
               <button class="footer_btn">Subscribe Now</button>
             </div>
+
           </div>
         </div>
       </div>
       <div class="copyright text-sm-center text-md-center text-lg-start text-center">
         <div class="container">
-          <p>© 2023 Diner. All Rights Reserved | WordPress Theme by</p>
-          <a href="#">W3Layouts.</a>
-        </div>
-      </div>
+          <p>© 2023 Diner. All Rights Reserved | WordPress Theme by 
+            <span>W3Layouts.</span</p>
+        </div></div>
     </footer>
     <!-- back to top -->
     <a href="#" title="Back To Top" class="scrollToTop"><i class="fa-solid fa-angle-up"></i></a>
@@ -153,13 +271,13 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
       integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
       crossorigin="anonymous"></script>
-    <!-- jquery.min -->
+      <!-- jquery.min -->
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"></script>
-    <!-- backtotop -->
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"></script>
+       <!-- backtotop -->
     <script>
       $(document).ready(function () {
         //Check to see if the window is top if not then display button
@@ -177,11 +295,11 @@
         });
       });
     </script>
-    <!-- Dark Light mode -->
-    <script>
-      document.querySelector(".light").onclick = function () {
-        document.getElementById("body").classList.toggle("body_dark");
-      };   
-            </script>
+    <!-- Dark/light mode -->
+      <script>
+        document.querySelector(".light").onclick = function () {
+  document.getElementById("body").classList.toggle("body_dark");
+};
+      </script>
   </body>
 </html>
