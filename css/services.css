@@ -453,5 +453,9 @@ footer .footer_btn:hover{
   background: #bd4c00;
   color: white;
 }
-
+@media screen and (max-width: 736px){
+  .banner{
+    padding-bottom:125px;
+  }
+}
 
