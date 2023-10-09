@@ -249,3 +249,53 @@ footer .footer_btn:hover {
   background: #bd4c00;
   color: white;
 }
+/* BODY DARK */
+/* .body_light{
+  background-color: #fff;
+}
+.body_dark{
+  background-color: #232220;
+  color: #fff;
+} */
+
+.body_dark .light .fa-sun {
+  display: block;
+  color: #fff;
+}
+
+.body_dark .light .fa-moon {
+  display: none;
+}
+.body_dark .search-container [type=text],  .body_dark [type=email]{
+  background-color: #232220;
+  color: #fff;
+}
+.body_dark .fa-search{
+  color: gray;
+}
+.body_dark .footer_content .socials i{
+  background-color: #232220;
+}
+.body_dark .footer_content .socials i:hover{
+  background-color: #ff6600;
+  color: #fff;
+}
+/* HEADER RIGHT */
+.header_right .light{
+  width: 50px;
+}
+.light .fa-moon{
+  display: block;
+}
+.light .fa-sun{
+  display: none;
+}
+
+.header_right .light svg{
+  font-size: 25px;
+  margin-left: 15px;
+}
+.header_right .dark svg{
+  font-size: 25px;
+  margin-left: 15px;
+}
