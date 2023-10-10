@@ -176,6 +176,7 @@ footer a{
   color: #fff;
   margin-bottom: 25px;
   transition: all 0.5s;
+  font-weight: 600;
 }
 .footer_content h2:hover{
   color: #ff6600;
@@ -273,6 +274,7 @@ footer .footer_btn:hover{
   background-image: linear-gradient(to right, rgba(236, 98, 6, 0.98), rgba(5, 3, 0, 0.83)), url(../images/banner2.jpg);
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: top;
+  background-attachment: fixed;
   min-height: 350px;
 }
 .banner a{
@@ -458,4 +460,51 @@ footer .footer_btn:hover{
     padding-bottom:125px;
   }
 }
+@media screen and (max-width: 576px){
+  .container_90{
+    width: 94%;
+  }
+  .title{
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .sub_title{
+    font-size: 30px;
+    line-height: 38px;
+  }
+  p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+  @media screen and (max-width: 576px){
+  .container_90{
+    width: 94%;
+  }
+  .title{
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .sub_title{
+    font-size: 30px;
+    line-height: 38px;
+  }
+  .about_bottom_container{
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+  p, .offer_item_container p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .offer_item_container p{
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .offer_bottom h3{
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+}
+
 
