@@ -190,6 +190,7 @@ footer a{
   color: #fff;
   margin-bottom: 25px;
   transition: all 0.5s;
+  font-weight: 600;
 }
 .footer_content h2:hover{
   color: #ff6600;
