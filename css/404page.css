@@ -1,10 +1,23 @@
 * a {
   text-decoration: none;
 }
+body {
+  font-family: quicksand;
+}
 /* media responsive */
+@media screen and (max-width: 768px) {
+  .found h5{
+    font-size: 100px !important;
+  }
+}
 @media screen and (max-width: 600px) {
   .d-none-md {
     display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .found h5{
+    font-size: 80px !important;
   }
 }
 .red {
@@ -13,11 +26,13 @@
 /* START HEADER */
 header {
   width: 100%;
-  background-image: linear-gradient(to right, #ff6600, hsl(30deg 100% 1% / 20%)),
-    url(https://wp.w3layouts.com/diner/wp-content/themes/Diner/assets/images/banner1.jpg);
+  min-height: 300px;
+  background-image: linear-gradient(to right, #ae4600, hsl(30deg 100% 1% / 70%)),
+    url(https://wp.w3layouts.com/diner/wp-content/themes/Diner/assets/images/banner2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
   color: #fff;
   padding: 30px 0 20px 0;
 }
@@ -125,6 +140,8 @@ header {
   color: #fff;
 }
 /* END HEADER */
+/* diner */
+
 /* START FOOTER */
 footer {
   background-color: #000000;
@@ -201,7 +218,7 @@ footer {
 }
 
 /*noinspection CssOverwrittenProperties*/
-footer input[type="email"] {
+input[type="email"] {
   border: 1px solid rgba(255, 99, 71, 0);
   outline: none;
   padding: 14px 20px;
@@ -211,7 +228,7 @@ footer input[type="email"] {
   transition: all 0.4s;
 }
 
-footer input[type="email"]:focus {
+input[type="email"]:focus {
   border-color: #ff6600;
 }
 
@@ -273,6 +290,20 @@ footer .footer_btn:hover {
 .body_dark .fa-search{
   color: gray;
 }
+.body_dark section {
+  background-color: #232220;
+  color: white !important;
+}
+.body_dark .to-home a{
+  color: white !important;
+}
+.body_dark .to-home i{
+  color: white !important;
+}
+.body_dark section .input-email input {
+  background-color: #2a2929;
+}
+
 .body_dark .footer_content .socials i{
   background-color: #232220;
 }
@@ -298,4 +329,49 @@ footer .footer_btn:hover {
 .header_right .dark svg{
   font-size: 25px;
   margin-left: 15px;
+}
+.header-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.header-text a{
+  color: #ff6600
+}
+
+.found h5{
+  font-size: 130px;
+}
+.input-email input{
+  border: 1px solid #9d9d9d;
+  background-color: #c3c3c323;
+}
+.found button {
+  width: 100%;
+ padding: 15px 0;
+ border-radius: 5px;
+ background-color: #ff6600;
+ border:none;
+ font-weight: bold;
+ color: white;
+ font-size: 18px;
+}
+.found button:hover {
+  background-color: #ff6600d4;
+}
+.to-home a{
+  font-size: 18px;
+  color: #2a2929;
+}
+.to-home span {
+  transition: all 0.3s;
+}
+.to-home span:hover{
+  color: #ff6600;
+}
+.to-home i{
+  color: #626262;
 }

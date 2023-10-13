@@ -604,7 +604,7 @@ footer .footer_btn:hover {
 .jumping {
   width: 100%;
   height: 500px;
-  background-image: url(https://wp.w3layouts.com/diner/wp-content/themes/Diner/assets/images/banner2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://wp.w3layouts.com/diner/wp-content/themes/Diner/assets/images/banner2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
