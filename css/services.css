@@ -74,11 +74,11 @@ header{
 
 .header_right .light svg{
   font-size: 25px;
-  margin-left: 15px;
+  margin-left: 20px;
 }
 .header_right .dark svg{
   font-size: 25px;
-  margin-left: 15px;
+  margin-left: 20px;
 }
 /* START SEARCH CONTAINER */
 .search-container{
@@ -336,9 +336,8 @@ footer .footer_btn:hover{
   padding: 30px;
   border-radius: 8px;
   box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  
-}
+  border: 1px solid #23222013;
+ }
 
 .offer_bottom{
   background-image: url(../images/banner2.jpg);
