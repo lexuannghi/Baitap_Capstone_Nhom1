@@ -22,7 +22,9 @@
 .body_dark .content_left .card .card-body .title{
   color: white;
 }
-
+.body_dark .two_page ul li a{
+  color: white;
+}
 .body_dark .search,
 .body_dark .search input,
 .body_dark .meta,

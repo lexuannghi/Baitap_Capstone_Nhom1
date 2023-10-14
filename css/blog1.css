@@ -22,6 +22,9 @@
 .body_dark .content_left .card .card-body .title{
   color: white;
 }
+.body_dark .two_page ul li a{
+  color: white;
+}
 
 .body_dark .search,
 .body_dark .search input,
@@ -539,14 +542,10 @@ header {
   color:var(--primary-color);
 }
 
-.two_page ul li:nth-child(2){
+.two_page .active{
   background-color: var(--primary-color);
   border: 1px solid var(--primary-color);
 
-}
-
-.two_page ul li:nth-child(2) a{
-  color: white;
 }
 
 
