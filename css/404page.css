@@ -9,6 +9,14 @@ body {
   .found h5{
     font-size: 100px !important;
   }
+  .header-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 0;
+    font-weight: 600;
+    font-size: 18px;
+  }
 }
 @media screen and (max-width: 600px) {
   .d-none-md {
@@ -20,6 +28,7 @@ body {
     font-size: 80px !important;
   }
 }
+
 .red {
   border: 1px solid red;
 }
@@ -156,6 +165,7 @@ footer {
   color: #fff;
   margin-bottom: 25px;
   transition: all 0.4s;
+  font-weight: 600;
 }
 
 .footer_content h2:hover {
@@ -311,6 +321,9 @@ footer .footer_btn:hover {
   background-color: #ff6600;
   color: #fff;
 }
+.body_dark .desc{
+  color: #c2d0da !important;
+}
 /* HEADER RIGHT */
 .header_right .light{
   width: 50px;
@@ -374,4 +387,20 @@ footer .footer_btn:hover {
 }
 .to-home i{
   color: #626262;
+}
+
+.found .desc{
+  font-size: 18px;
+  font-weight: 28px;
+  color: #161c2db3;
+}
+@media screen and (max-width: 740px) {
+  .header-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+    font-weight: 600;
+    font-size: 18px;
+  }
 }
