@@ -253,7 +253,6 @@ header {
   font-size: 38px;
   line-height: 48px;
   font-weight: 600px;
-  padding-bottom: 48px;
 }
 
 
@@ -326,7 +325,7 @@ header {
 
 .content_left .card .card-body .title{
   color: var(--heading-color);
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 600;
   line-height: 34px;
   display: block;
@@ -339,11 +338,13 @@ header {
 }
 
 .card .card-body .readmore img{
+  width: 40px;
+  height: 40px;
   border-radius: 50px;
 }
 .card .card-body .readmore .layout{
 
-  font-size: 18px ;
+  font-size: 16px ;
   line-height: 24px;
   color: var(--heading-color);
   font-weight: 700;
@@ -351,7 +352,7 @@ header {
 }
 
 .card .card-body .readmore .readmore_1{
-  font-size: 18px ;
+  font-size: 16px ;
   line-height: 24px;
   color: var(--heading-color);
   font-weight: 600;
@@ -426,7 +427,7 @@ header {
 .recent_post .title,
 .comment .title{
   padding-bottom: 30px;
-  font-size: 28px;
+  font-size: 26px;
   line-height: 38px;
 }
 
@@ -463,7 +464,7 @@ header {
   transition: .3s ease;
   position: relative;
   color: var(--font-color);
-  font-size: 22px;
+  font-size: 19px;
   font-weight: 400;
   display: block;
   padding: 3px 0;
