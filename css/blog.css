@@ -522,12 +522,14 @@ header {
   margin: 0 10px;
   border-radius: var(--border-radius);
   border: 1px solid gray;
+  transition: all 0.5s;
 }
 
 .two_page ul li a{
   font-size: 18px;
   color: var(--font-color);
   font-weight: 600;
+  transition: all 0.5s;
 }
 
 .two_page ul li:hover{
@@ -539,9 +541,14 @@ header {
   color:var(--primary-color);
 }
 
+.two_page ul li:first-child{
+  background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
 
-
-
+.two_page ul li:first-child a{
+  color: white;
+}
 
 
 /* START FOOTER */
