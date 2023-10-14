@@ -112,6 +112,7 @@ header {
 /* START SEARCH CONTAINER */
 .search-container {
   position: relative;
+
 }
 
 .search-container button {
@@ -252,7 +253,6 @@ header {
   font-size: 38px;
   line-height: 48px;
   font-weight: 600px;
-  padding-bottom: 48px;
 }
 
 
@@ -277,7 +277,7 @@ header {
   border-radius: 0;
 }
 
-item .card .header_img img{
+.item .card .header_img img{
   border-radius: var(--border-radius);
 }
 
@@ -290,7 +290,6 @@ item .card .header_img img{
  bottom: 10px;
  left: 10px;
 }
-
 
 
 .item .card .header_img button {
@@ -326,7 +325,7 @@ item .card .header_img img{
 
 .content_left .card .card-body .title{
   color: var(--heading-color);
-  font-size: 30px;
+  font-size: 24px;
   font-weight: 600;
   line-height: 34px;
   display: block;
@@ -339,11 +338,13 @@ item .card .header_img img{
 }
 
 .card .card-body .readmore img{
+  width: 40px;
+  height: 40px;
   border-radius: 50px;
 }
 .card .card-body .readmore .layout{
 
-  font-size: 18px ;
+  font-size: 16px ;
   line-height: 24px;
   color: var(--heading-color);
   font-weight: 700;
@@ -351,7 +352,7 @@ item .card .header_img img{
 }
 
 .card .card-body .readmore .readmore_1{
-  font-size: 18px ;
+  font-size: 16px ;
   line-height: 24px;
   color: var(--heading-color);
   font-weight: 600;
@@ -403,6 +404,7 @@ item .card .header_img img{
   top: 2px;
   right: 2px;
   font-size: 20px;
+}
 
 .form_label:hover{
   cursor: pointer;
@@ -425,7 +427,7 @@ item .card .header_img img{
 .recent_post .title,
 .comment .title{
   padding-bottom: 30px;
-  font-size: 28px;
+  font-size: 26px;
   line-height: 38px;
 }
 
@@ -462,7 +464,7 @@ item .card .header_img img{
   transition: .3s ease;
   position: relative;
   color: var(--font-color);
-  font-size: 22px;
+  font-size: 19px;
   font-weight: 400;
   display: block;
   padding: 3px 0;
@@ -537,10 +539,15 @@ item .card .header_img img{
   color:var(--primary-color);
 }
 
-.two_page ul .active{
+.two_page ul li:nth-child(2){
   background-color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+
 }
 
+.two_page ul li:nth-child(2) a{
+  color: white;
+}
 
 
 

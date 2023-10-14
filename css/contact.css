@@ -307,7 +307,7 @@ header {
 .in_form .send_message{
 
   text-align: end;
-  padding: 15px 45px;
+  padding: 13px 40px;
   font-size: 18px;
   font-weight: 600;
   line-height: 38px;
@@ -318,6 +318,12 @@ header {
 }
 
 /* about_contact */
+@media screen and (max-width: 700px){ 
+    .banner_respon{
+      transform: translateY(-50px);
+    }
+}
+
 .about_contact{
   padding: 96px 0;
 }
@@ -326,6 +332,8 @@ header {
   text-align: left;
   margin-bottom: 48px;
 }
+
+
 
 .contact_left .ctact_title h6{
   font-family: 'Pacifico', cursive;
