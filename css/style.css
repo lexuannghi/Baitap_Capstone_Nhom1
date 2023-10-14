@@ -901,6 +901,9 @@ footer .footer_btn:hover {
   max-width: 100%;
   border-radius: 5px;
 }
+.body_dark .skill_item h6, .body_dark .team .team_title{
+  color: #fff;
+}
 .team .team_title{
   display: inline-block;
   margin: 25px 0 0px;
